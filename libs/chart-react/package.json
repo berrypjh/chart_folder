@@ -1,0 +1,25 @@
+{
+  "name": "@my-chart/react",
+  "version": "0.0.1",
+  "type": "module",
+  "main": "./dist/index.esm.js",
+  "module": "./dist/index.esm.js",
+  "types": "./dist/index.esm.d.ts",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "@my-chart-lib/source": "./src/index.ts",
+      "types": "./dist/index.esm.d.ts",
+      "import": "./dist/index.esm.js",
+      "default": "./dist/index.esm.js"
+    }
+  },
+  "files": [
+    "dist",
+    "!**/*.tsbuildinfo"
+  ],
+  "devDependencies": {
+    "@storybook/react": "^10.1.0",
+    "@storybook/react-vite": "^10.1.0"
+  }
+}

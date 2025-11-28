@@ -1,0 +1,35 @@
+{
+  "name": "@my-chart/react",
+  "sourceRoot": "libs/chart-react/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/rollup:rollup",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "project": "libs/chart-react/package.json",
+        "entryFile": "libs/chart-react/src/index.ts",
+        "outputPath": "libs/chart-react/dist",
+        "tsConfig": "libs/chart-react/tsconfig.lib.json",
+        "compiler": "babel",
+        "external": ["react", "react-dom", "react/jsx-runtime"],
+        "format": ["esm"],
+        "assets": [
+          {
+            "input": "libs/chart-react",
+            "output": ".",
+            "glob": "README.md"
+          }
+        ]
+      }
+    },
+    "storybook": {
+      "executor": "@nx/storybook:storybook",
+      "options": {
+        "port": 4400,
+        "configDir": "libs/chart-react/.storybook"
+      }
+    }
+  }
+}
