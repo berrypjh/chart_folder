@@ -12,7 +12,6 @@ describe('BarChart Component', () => {
       <BarChart width={300} height={200} data={mockData} />
     );
 
-    // SVG rect 엘리먼트가 데이터 개수만큼 존재하는지 확인
     const bars = container.querySelectorAll('rect');
     expect(bars.length).toBe(2);
   });

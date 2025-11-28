@@ -1,5 +1,2 @@
-export {
-  type DataPoint,
-  type BarGeometry,
-  computeBarCoordinates,
-} from './lib/bar-computer';
+export type { DataPoint, BarGeometry } from './lib/bar-computer';
+export { computeBarCoordinates } from './lib/bar-computer';

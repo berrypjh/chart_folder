@@ -20,6 +20,9 @@
     },
     {
       "path": "./apps/demo-web"
+    },
+    {
+      "path": "./apps/demo-mobile"
     }
   ]
 }

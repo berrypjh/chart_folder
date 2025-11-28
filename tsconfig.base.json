@@ -21,6 +21,7 @@
     "paths": {
       "@my-chart/core": ["libs/chart-core/src/index.ts"],
       "@my-chart/react": ["libs/chart-react/src/index.ts"],
+      "@my-chart/react-native": ["libs/chart-react-native/src/index.ts"],
       "@my-chart/shared-data": ["shared/src/index.ts"]
     }
   }

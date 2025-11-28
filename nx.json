@@ -90,9 +90,26 @@
         "componentTestingTargetName": "component-test",
         "ciTargetName": "e2e-ci"
       }
+    },
+    {
+      "plugin": "@nx/expo/plugin",
+      "options": {
+        "startTargetName": "start",
+        "buildTargetName": "build",
+        "prebuildTargetName": "prebuild",
+        "serveTargetName": "serve",
+        "installTargetName": "install",
+        "exportTargetName": "export",
+        "submitTargetName": "submit",
+        "runIosTargetName": "run-ios",
+        "runAndroidTargetName": "run-android",
+        "buildDepsTargetName": "build-deps",
+        "watchDepsTargetName": "watch-deps"
+      }
     }
   ],
   "release": {
+    "projects": ["libs/*"],
     "version": {
       "preVersionCommand": "pnpm dlx nx run-many -t build"
     }

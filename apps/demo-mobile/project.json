@@ -1,0 +1,16 @@
+{
+  "name": "@my-chart-lib/demo-mobile",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/demo-mobile/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/expo:export",
+      "outputs": ["{projectRoot}/dist"],
+      "options": {
+        "outputDir": "apps/demo-mobile/dist"
+      }
+    }
+  }
+}

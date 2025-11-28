@@ -10,7 +10,6 @@ interface BarChartProps {
 }
 
 export const BarChart: React.FC<BarChartProps> = ({ data, width, height }) => {
-  // 동일한 Core 로직 사용!
   const bars = useMemo(() => {
     return computeBarCoordinates({ data, width, height });
   }, [data, width, height]);
@@ -28,7 +27,6 @@ export const BarChart: React.FC<BarChartProps> = ({ data, width, height }) => {
               fill={bar.color}
               rx={4}
               ry={4}
-              // onPress={() => alert(bar.data.value)} // 모바일 터치 이벤트
             />
             <SvgText
               x={bar.x + bar.width / 2}

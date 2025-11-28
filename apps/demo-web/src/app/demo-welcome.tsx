@@ -9,12 +9,11 @@ function DemoWelcome(): React.ReactNode {
 
   useEffect(() => {
     const handleResize = () => {
-      // 모바일이면 300, 데스크탑이면 600 (혹은 container width 계산)
       setChartWidth(window.innerWidth < 768 ? window.innerWidth - 40 : 600);
     };
 
     window.addEventListener('resize', handleResize);
-    handleResize(); // 초기 실행
+    handleResize();
 
     return () => window.removeEventListener('resize', handleResize);
   }, []);
@@ -30,7 +29,6 @@ function DemoWelcome(): React.ReactNode {
         <div className="card">
           <h2>Monthly Sales</h2>
           <div className="chart-container">
-            {/* 만든 BarChart 컴포넌트 사용 */}
             <BarChart width={chartWidth} height={300} data={SALES_DATA} />
           </div>
           <div className="legend">
