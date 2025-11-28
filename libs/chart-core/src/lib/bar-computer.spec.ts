@@ -1,4 +1,4 @@
-import { computeBarCoordinates } from './bar-computer.js';
+import { computeBarCoordinates } from './bar-computer';
 
 describe('computeBarCoordinates', () => {
   it('should calculate correct bar heights based on value ratio', () => {

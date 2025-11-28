@@ -13,7 +13,8 @@
     "reset": "nx reset",
     "storybook": "nx storybook @my-chart/react",
     "graph": "nx graph",
-    "release": "nx release"
+    "release": "nx release",
+    "release:dry-run": "nx release --dry-run"
   },
   "private": true,
   "devDependencies": {
