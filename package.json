@@ -15,7 +15,8 @@
     "storybook": "nx storybook @my-chart/react",
     "graph": "nx graph",
     "release": "nx release",
-    "release:dry-run": "nx release --dry-run"
+    "release:dry-run": "nx release --dry-run",
+    "ai:commit": "tsx tools/scripts/ai-commit-msg.mts"
   },
   "private": true,
   "devDependencies": {
@@ -63,6 +64,7 @@
     "babel-preset-expo": "~13.2.0",
     "core-js": "^3.36.1",
     "cypress": "^15.6.0",
+    "dotenv": "^17.2.3",
     "eslint": "^9.8.0",
     "eslint-config-prettier": "^10.0.0",
     "eslint-plugin-cypress": "^3.5.0",
@@ -76,6 +78,7 @@
     "metro-config": "~0.82.4",
     "metro-resolver": "~0.82.4",
     "nx": "22.1.3",
+    "openai": "^6.10.0",
     "postcss": "8.4.38",
     "prettier": "^2.6.2",
     "react-native-svg": "~15.11.2",
@@ -84,6 +87,7 @@
     "storybook": "^10.1.0",
     "tailwindcss": "3.4.3",
     "tslib": "^2.3.0",
+    "tsx": "^4.21.0",
     "typescript": "~5.9.2",
     "typescript-eslint": "^8.40.0",
     "verdaccio": "^6.0.5",
