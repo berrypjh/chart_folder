@@ -14,7 +14,7 @@ module.exports = withNx(
       'react',
       'react-dom',
       'react-native-svg',
-      '@berry-test-chart/core',
+      '@berrypjh/core',
     ],
     format: ['cjs', 'esm'],
     assets: [{ input: '.', output: '.', glob: 'README.md' }],

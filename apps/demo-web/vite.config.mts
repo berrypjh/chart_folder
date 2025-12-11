@@ -19,9 +19,9 @@ export default defineConfig(() => ({
   plugins: [react()],
   resolve: {
     alias: {
-      '@berry-test-chart/core': path.resolve(root, '../../libs/chart-core/src/index.ts'),
-      '@berry-test-chart/react': path.resolve(root, '../../libs/chart-react/src/index.ts'),
-      '@berry-test-chart/shared-data': path.resolve(root, '../../shared/src/index.ts'),
+      '@berrypjh/core': path.resolve(root, '../../libs/chart-core/src/index.ts'),
+      '@berrypjh/react': path.resolve(root, '../../libs/chart-react/src/index.ts'),
+      '@berrypjh/shared-data': path.resolve(root, '../../shared/src/index.ts'),
     },
   },
   build: {
@@ -33,7 +33,7 @@ export default defineConfig(() => ({
     },
   },
   test: {
-    name: '@berry-test-chart-lib/demo-web',
+    name: '@berrypjh-lib/demo-web',
     watch: false,
     globals: true,
     environment: 'jsdom',

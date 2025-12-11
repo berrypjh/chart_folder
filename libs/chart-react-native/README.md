@@ -1,7 +1,7 @@
-# @berry-test-chart/react-native
+# @berrypjh/react-native
 
 This library was generated with [Nx](https://nx.dev).
 
 ## Running unit tests
 
-Run `nx test @berry-test-chart/react-native` to execute the unit tests via [Jest](https://jestjs.io).
+Run `nx test @berrypjh/react-native` to execute the unit tests via [Jest](https://jestjs.io).

@@ -23,7 +23,7 @@ const config: StorybookConfig = {
     return mergeConfig(config, {
       resolve: {
         alias: {
-          '@berry-test-chart/core': path.resolve(root, '../../chart-core/src/index.ts'),
+          '@berrypjh/core': path.resolve(root, '../../chart-core/src/index.ts'),
         },
         extensions: ['.mjs', '.js', '.mts', '.ts', '.jsx', '.tsx', '.json'],
       },

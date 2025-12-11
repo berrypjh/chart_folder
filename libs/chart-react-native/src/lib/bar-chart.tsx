@@ -1,7 +1,7 @@
 import React, { useMemo } from 'react';
 import { View } from 'react-native';
 import Svg, { Rect, Text as SvgText, G } from 'react-native-svg';
-import { computeBarCoordinates, DataPoint } from '@berry-test-chart/core';
+import { computeBarCoordinates, DataPoint } from '@berrypjh/core';
 
 interface BarChartProps {
   data: DataPoint[];

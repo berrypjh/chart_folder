@@ -1,5 +1,5 @@
 {
-  "name": "@berry-test-chart-lib/demo-mobile",
+  "name": "@berrypjh-lib/demo-mobile",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "apps/demo-mobile/src",
   "projectType": "application",

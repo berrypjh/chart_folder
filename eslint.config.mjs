@@ -22,7 +22,7 @@ export default [
           enforceBuildableLibDependency: true,
           allow: [
             '^.*/eslint(\\.base)?\\.config\\.[cm]?[jt]s$',
-            '^@berry-test-chart/(core|react|shared-data)$',
+            '^@berrypjh/(core|react|shared-data)$',
           ],
           depConstraints: [
             {

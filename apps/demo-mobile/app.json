@@ -1,11 +1,11 @@
 {
   "expo": {
     "name": "DemoMobile",
-    "slug": "@berry-test-chart-lib/demo-mobile",
+    "slug": "@berrypjh-lib/demo-mobile",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "@berry-test-chart-lib/demo-mobile",
+    "scheme": "@berrypjh-lib/demo-mobile",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {

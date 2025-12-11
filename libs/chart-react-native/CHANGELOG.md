@@ -7,7 +7,7 @@
 
 ### 🧱 Updated Dependencies
 
-- Updated @berry-test-chart/core to 0.0.2-1
+- Updated @berrypjh/core to 0.0.2-1
 
 ### ❤️ Thank You
 

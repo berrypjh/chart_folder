@@ -7,10 +7,10 @@ export default defineConfig({
       cypressDir: 'src',
       bundler: 'vite',
       webServerCommands: {
-        default: 'pnpm exec nx run @berry-test-chart-lib/demo-web:dev',
-        production: 'pnpm exec nx run @berry-test-chart-lib/demo-web:preview',
+        default: 'pnpm exec nx run @berrypjh-lib/demo-web:dev',
+        production: 'pnpm exec nx run @berrypjh-lib/demo-web:preview',
       },
-      ciWebServerCommand: 'pnpm exec nx run @berry-test-chart-lib/demo-web:preview',
+      ciWebServerCommand: 'pnpm exec nx run @berrypjh-lib/demo-web:preview',
       ciBaseUrl: 'http://localhost:4200',
     }),
     baseUrl: 'http://localhost:4200',

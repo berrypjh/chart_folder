@@ -23,7 +23,7 @@ export default defineConfig({
     },
     lib: {
       entry: path.join(root, 'src/index.ts'),
-      name: '@berry-test-chart/core',
+      name: '@berrypjh/core',
       fileName: 'index',
       formats: ['es' as const],
     },
@@ -32,7 +32,7 @@ export default defineConfig({
     },
   },
   test: {
-    name: '@berry-test-chart/core',
+    name: '@berrypjh/core',
     watch: false,
     globals: true,
     environment: 'node',
