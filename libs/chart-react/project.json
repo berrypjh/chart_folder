@@ -1,5 +1,5 @@
 {
-  "name": "@my-chart/react",
+  "name": "@berry-test-chart/react",
   "sourceRoot": "libs/chart-react/src",
   "projectType": "library",
   "tags": [],

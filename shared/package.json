@@ -1,5 +1,5 @@
 {
-  "name": "@my-chart/shared-data",
+  "name": "@berry-test-chart/shared-data",
   "version": "0.0.1",
   "types": "./src/index.ts",
   "main": "./src/index.ts",

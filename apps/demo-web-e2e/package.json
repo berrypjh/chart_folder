@@ -1,10 +1,10 @@
 {
-  "name": "@my-chart-lib/demo-web-e2e",
+  "name": "@berry-test-chart-lib/demo-web-e2e",
   "version": "0.0.1",
   "private": true,
   "nx": {
     "implicitDependencies": [
-      "@my-chart-lib/demo-web"
+      "@berry-test-chart-lib/demo-web"
     ]
   }
 }

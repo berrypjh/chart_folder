@@ -1,13 +1,18 @@
 {
-  "name": "@my-chart/react-native",
+  "name": "@berry-test-chart/react-native",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/berrypjh/library_practice",
+    "directory": "libs/chart-react-native"
+  },
   "main": "./dist/index.cjs.js",
   "module": "./dist/index.esm.js",
   "types": "./dist/index.esm.d.ts",
   "exports": {
     "./package.json": "./package.json",
     ".": {
-      "@my-chart-lib/source": "./src/index.ts",
+      "@berry-test-chart-lib/source": "./src/index.ts",
       "types": "./dist/index.esm.d.ts",
       "import": "./dist/index.esm.js",
       "default": "./dist/index.cjs.js"

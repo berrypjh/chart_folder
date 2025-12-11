@@ -16,13 +16,13 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es2022",
-    "customConditions": ["@my-chart-lib/source"],
+    "customConditions": ["@berry-test-chart-lib/source"],
     "baseUrl": ".",
     "paths": {
-      "@my-chart/core": ["libs/chart-core/src/index.ts"],
-      "@my-chart/react": ["libs/chart-react/src/index.ts"],
-      "@my-chart/react-native": ["libs/chart-react-native/src/index.ts"],
-      "@my-chart/shared-data": ["shared/src/index.ts"]
+      "@berry-test-chart/core": ["libs/chart-core/src/index.ts"],
+      "@berry-test-chart/react": ["libs/chart-react/src/index.ts"],
+      "@berry-test-chart/react-native": ["libs/chart-react-native/src/index.ts"],
+      "@berry-test-chart/shared-data": ["shared/src/index.ts"]
     }
   }
 }

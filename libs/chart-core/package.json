@@ -1,6 +1,11 @@
 {
-  "name": "@my-chart/core",
+  "name": "@berry-test-chart/core",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/my-chart-lib/source.git",
+    "directory": "libs/chart-core"
+  },
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
@@ -8,7 +13,7 @@
   "exports": {
     "./package.json": "./package.json",
     ".": {
-      "@my-chart-lib/source": "./src/index.ts",
+      "@berry-test-chart-lib/source": "./src/index.ts",
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "default": "./dist/index.js"

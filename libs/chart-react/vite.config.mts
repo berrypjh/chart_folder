@@ -11,11 +11,11 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      '@my-chart/core': path.resolve(root, '../chart-core/src/index.ts'),
+      '@berry-test-chart/core': path.resolve(root, '../chart-core/src/index.ts'),
     },
   },
   test: {
-    name: '@my-chart/react',
+    name: '@berry-test-chart/react',
     watch: false,
     globals: true,
     environment: 'jsdom',

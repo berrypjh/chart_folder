@@ -1,5 +1,5 @@
 {
-  "name": "@my-chart/react-native",
+  "name": "@berry-test-chart/react-native",
   "sourceRoot": "libs/chart-react-native/src",
   "projectType": "library",
   "tags": [],
@@ -19,7 +19,7 @@
           "react",
           "react-dom",
           "react-native-svg",
-          "@my-chart/core"
+          "@berry-test-chart/core"
         ],
         "format": ["cjs", "esm"],
         "assets": [

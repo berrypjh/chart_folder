@@ -1,5 +1,5 @@
 import React, { useMemo } from 'react';
-import { computeBarCoordinates, DataPoint } from '@my-chart/core';
+import { computeBarCoordinates, DataPoint } from '@berry-test-chart/core';
 
 interface BarChartProps {
   data: DataPoint[];

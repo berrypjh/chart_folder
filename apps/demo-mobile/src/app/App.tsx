@@ -7,8 +7,8 @@ import {
   useWindowDimensions,
   StatusBar,
 } from 'react-native';
-import { SALES_DATA } from '@my-chart/shared-data';
-import { BarChart } from '@my-chart/react-native';
+import { SALES_DATA } from '@berry-test-chart/shared-data';
+import { BarChart } from '@berry-test-chart/react-native';
 
 export default function App() {
   const { width: screenWidth } = useWindowDimensions();

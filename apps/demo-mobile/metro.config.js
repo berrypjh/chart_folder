@@ -12,7 +12,7 @@ const { assetExts, sourceExts } = defaultConfig.resolver;
  * @type {import('metro-config').MetroConfig}
  */
 const customConfig = {
-  cacheVersion: '@my-chart-lib/demo-mobile',
+  cacheVersion: '@berry-test-chart-lib/demo-mobile',
   transformer: {
     babelTransformerPath: require.resolve('react-native-svg-transformer'),
   },

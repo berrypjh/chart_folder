@@ -1,8 +1,8 @@
 'use client';
 
 import React, { useState, useEffect } from 'react';
-import { BarChart } from '@my-chart/react';
-import { SALES_DATA } from '@my-chart/shared-data';
+import { BarChart } from '@berry-test-chart/react';
+import { SALES_DATA } from '@berry-test-chart/shared-data';
 
 function DemoWelcome(): React.ReactNode {
   const [chartWidth, setChartWidth] = useState(600);
