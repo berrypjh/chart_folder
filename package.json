@@ -29,6 +29,7 @@
     "build:apps:demo-web": "nx build @berrypjh/demo-web",
     "build:apps:demo-mobile": "nx build @berrypjh/demo-mobile",
     "release:npm": "tsx tools/scripts/release/release-npm.ts",
+    "release:npm:first-release": "tsx tools/scripts/release/release-npm.ts --first-release",
     "release:local": "tsx tools/scripts/release/release-local.ts",
     "local-registry": "nx local-registry",
     "ai:commit": "tsx tools/scripts/ai/ai-commit-msg.mts",

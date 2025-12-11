@@ -109,18 +109,12 @@
     }
   ],
   "release": {
-    "projects": ["libs/*"],
-    "version": {
-      "preVersionCommand": "pnpm dlx nx run-many -t build --projects libs/*"
-    },
+    "projects": ["@berrypjh/react", "@berrypjh/react-native", "@berrypjh/core"],
     "projectsRelationship": "independent",
     "changelog": {
       "workspaceChangelog": {
         "renderOptions": {
-          "authors": false,
-          "mapAuthorsToGitHubUsernames": false,
-          "versionTitleDate": true,
-          "commitReferences": true
+          "template": "tools/template/changelog-template.hbs"
         },
         "createRelease": "github"
       },

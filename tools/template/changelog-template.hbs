@@ -1,0 +1,9 @@
+## {{version}} ({{date}})
+
+{{#if commits.length}}
+### 변경 사항
+
+{{#each commits}}
+- {{this.subject}}
+{{/each}}
+{{/if}}

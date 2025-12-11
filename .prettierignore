@@ -14,6 +14,7 @@ out
 
 # 문서
 README.md
+tools/template/*
 
 # Lock 파일
 package-lock.json
