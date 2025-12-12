@@ -16,7 +16,7 @@ const main = async () => {
 
   const publishResult = await releasePublish({
     releaseGraph,
-    registry: 'https://registry.npmjs.org/',
+    registry: 'https://npm.pkg.github.com',
     access: 'public',
     firstRelease: isFirstRelease,
   });

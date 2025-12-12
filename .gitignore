@@ -143,3 +143,5 @@ npm-debug.*
 web-build/
 cache/
 
+# npm
+.npmrc
